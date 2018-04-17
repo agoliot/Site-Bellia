@@ -1,0 +1,69 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    overflow: hidden;
+    margin-bottom: 25px;
+    position: fixed;
+    bottom: 0;
+    /*background-color: red;*/
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+}
+
+.description {
+    display: inline-block;
+    margin-left: 20px;
+    height: 100%;
+    overflow-y: auto;
+    width: calc(100% - 100px);
+}
+
+.container {
+    font-size: small;
+    margin-top: 50px;
+    height: calc(100% - 150px);
+}
+
+#img-head {
+    width: 60px;
+    vertical-align: top;
+}
+
+.img-projet {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+
+#accueil .img-projet {
+    height: 100%;
+}
+
+.block-footer {
+    vertical-align: bottom;
+    display: inline-block;
+    transition: transform 1s;
+    transform: translateY( calc(100% - 50px));
+}
+
+.block-footer:hover {
+    transform: translateY(0px);
+}
+
+
+.photo {
+    border-radius: 50%;
+    margin-right: 20px;
+}
